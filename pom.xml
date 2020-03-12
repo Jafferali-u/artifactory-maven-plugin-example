@@ -10,8 +10,6 @@
 
     <modules>
         <module>multi1</module>
-        <module>multi2</module>
-        <module>multi3</module>
     </modules>
 
     <properties>
@@ -73,7 +71,7 @@
                                 <username>${username}</username>
                                 <password>${password}</password>
                                 <excludePatterns>*-tests.jar</excludePatterns>
-                                <repoKey>libs-release-local</repoKey>
+                                <repoKey>libs-snapshot-local</repoKey>
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                             </publisher>
                             <buildInfo>
